@@ -7,7 +7,7 @@ addpath('./data/')
 addpath('./export_fig/')
 
 
-load('./data/tmaps_comp')
+load('./data/tmaps_comp.mat')
 
 %%
 gcf=figure(1);

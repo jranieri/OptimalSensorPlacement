@@ -2,7 +2,6 @@ clear all;
 close all;
 
 %% Plot the figure!
-addpath('./data/')
 addpath('./export_fig/')
 
 
