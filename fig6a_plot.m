@@ -4,6 +4,7 @@ close all;
 %% Plot the figure!
 
 addpath('./data/')
+addpath('./routine/')
 addpath('./export_fig/')
 
 
