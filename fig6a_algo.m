@@ -30,11 +30,12 @@ Psi=Psi_s;
 %%
 L=16:4:50;
 
-loc_cohe=greedy_tmaps(Psi);
+loc_cohe=SP_tmaps(Psi);
+
 for i=1:length(L)
     
     loc_FP=SP_greedyFP(Psi,L(i));
-    loc_det=SPy_vikalo2010(Psi,L(i));
+    loc_det=SP_vikalo2010(Psi,L(i));
     loc_MSE=SP_greedyMSE(Psi,L(i));
     loc_mutual_inf=SP_greedyMI(Psi*Psi',L(i));
     loc_entropy=SP_greedyEntropy(Psi*Psi',L(i));

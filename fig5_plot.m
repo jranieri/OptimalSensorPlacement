@@ -41,6 +41,3 @@ set( hTitle                    , ...
     'FontSize'   , 16          );
 pbaspect([16,9, 14])
 
-export_fig('format','pdf','width',3.33, 'fontmode','fixed', 'fontsize',8,'color','cmyk',['./figures/joshi_vs_FP.pdf']);
-
-%% 
